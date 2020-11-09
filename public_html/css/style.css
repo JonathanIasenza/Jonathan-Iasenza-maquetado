@@ -1,0 +1,25 @@
+.container{
+    padding-top:50px;
+}
+
+#banner{
+    margin: 0 -20px auto;
+    width: 85%;
+    height: 100%;
+}
+
+.card{
+    margin: 95px -1px auto;
+    width: 200px;
+    height: auto;
+    position:relative;
+}
+
+.card-img-top{
+   width: 110%;
+   height: 100%;
+}
+
+.col-md-3{
+    padding:120px 0 0 ;
+}

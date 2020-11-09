@@ -1,0 +1,123 @@
+.carousel-container{
+    width: 90%;
+    height: 100%;
+    margin-top:5%;
+    margin-left: 35%;
+    padding:0;
+    position:absolute;
+}
+
+#visor-images{
+    margin-left: 45%;
+    margin-top:-48%;
+    text-align: center;
+    background-color: #fce233;
+    max-width: 480px;
+    min-height: 40px;
+}
+
+#visor-images p{
+    font-size: 95%;
+    padding-top: 7px;
+}
+
+.carousel-back,
+.carousel-next{
+    position:absolute;
+    display:block;
+    width: 50px;
+    height: 50px;
+    border:none;
+    top:calc(50% - 35px);
+    cursor:pointer;
+    line-height: 30px;
+    text-align: center;
+    background: none;
+    color:#000;
+    opacity: 20%;
+}
+
+.carousel-back:hover,
+.carousel-next:hover{
+    opacity:100%
+}
+
+.carousel-back{
+    top:80px;
+    left:-72px;
+}
+
+.carousel-next{
+    position:absolute;
+    display:block;
+    width: 50px;
+    height: 50px;
+    border:none;
+    top:calc(50% - 35px);
+    cursor:pointer;
+    line-height: 30px;
+    text-align: center;
+    background: none;
+    color:#000;
+    opacity: 20%;
+}
+
+.carousel-next{
+    right: -80px;
+    top: 80px;
+}
+
+.carousel-list{
+    overflow:hidden;
+}
+
+.carousel-element{
+    text-align: center;
+}
+
+.carousel-indicadores{
+    margin-top: 40px;
+}
+.carousel-element #outstanding{
+    max-width: 90px;
+    margin:-1px -130px auto;
+    position:absolute;
+}
+
+.carousel-element h4 {
+    font-size: 112%;
+}
+
+.carousel-element #product{
+    width: 120%;
+    height: 55%;
+}
+
+#cant{
+    visibility:hidden;
+    height: 30px;
+    width: 100px;
+}
+
+.btn-danger{
+    visibility:hidden;
+    width: 140px;
+    height: 42px;
+    font-size: 120%;
+    background-color: red;
+}
+
+.carousel-element:hover #cant {
+    visibility: visible;
+}
+
+.carousel-element:hover .btn-danger{
+    visibility: visible;
+}
+
+.carousel-element:hover{
+    border: 2px solid gainsboro;
+    width:90%;
+    height: 55%;
+    font-size: 95%;
+}

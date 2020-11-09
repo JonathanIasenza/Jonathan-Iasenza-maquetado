@@ -1,0 +1,190 @@
+@media only screen and (max-width : 1199px) {
+
+    body{
+        padding:80px 20px ;
+    }
+    .container > *{
+        width:100%;
+        height: 100%;
+        margin:auto;
+        padding: 20px;
+    }
+    #banner{
+        min-height: 110%;
+        min-width: 110%;
+        padding-left: 50px;
+        padding-right: 50px;
+        margin:auto;
+    }
+    .carousel{
+        padding-left: 40px;
+        padding-top: 50px;
+    }
+    .card{
+        max-width: 100%;
+        overflow: hidden;
+        border:hidden;
+        padding-top:-180px;
+        padding-left: 20px;
+    }
+    .card .card-img-top{
+        max-width: 90%;
+        padding-top:-180px;
+    }
+}
+
+@media only screen and (max-width : 991px) {
+
+    #banner{
+        padding-bottom: 50px;
+        margin: auto;
+        min-width: 180%;
+        min-height: 110%;
+    }
+
+    .carousel{
+        margin-top:-30px;
+        width:120%;
+        margin-left:-210px;
+        height: 100%;
+        position:absolute;
+    }
+
+    .carousel-container{
+        margin-top: 200px;
+        position:absolute;
+        padding-bottom:10px;
+    }
+
+    #visor-images{
+        min-width: 380px;
+        font-size: 150%;
+        min-height: 45px;
+    }
+
+    #visor-images p{
+        padding:7px 48px;
+        width: 380px;
+        height: 40px;
+    }
+
+    .text{
+        margin-left: -180px;
+        margin-top: 570px;
+    }
+
+    .card{
+        padding-top:-450px;
+        overflow:hidden;
+        bottom:200px;
+        left:230px;
+    }
+
+    .card .card-img-top{
+        width: 150%;
+        height: 100%;
+    }
+}
+
+@media only screen and (max-width : 767px) {
+
+    #banner{
+        padding-left: -180px;
+        padding-right: 160px;
+        padding-bottom: 50px;
+        margin: auto;
+        min-width: 150%;
+        min-height: 110%;
+    }
+
+    .carousel-element {
+        font-size: 110%;
+    }
+
+    .carousel{
+        margin-top:-10px;
+        width:110%;
+        margin-left:-250px;
+        height: 100%;
+        position:absolute;
+    }
+
+    .carousel-container{
+        margin-top: 200px;
+        position:absolute;
+        padding-bottom:10px;
+    }
+
+    #visor-images{
+        width: 30px;
+        font-size: 150%;
+        min-height: 45px;
+    }
+
+    #visor-images p{
+        padding:7px 48px;
+        width: 380px;
+        height: 40px;
+    }
+
+    .text{
+        margin-left: -350px;
+        margin-top: 190px;
+    }
+
+    .card{
+        padding-top:-450px;
+        overflow:hidden;
+        bottom:230px;
+        left:100px;
+    }
+
+    .card .card-img-top{
+        width: 150%;
+        height: 100%;
+    }
+}
+
+
+@media only screen and (max-width : 665px) {
+
+    .carousel-element {
+        font-size: 140%;
+    }
+
+    .carousel{
+        margin-top:-10px;
+        width:80%;
+        margin-left:-120px;
+        height: 80%;
+        position:absolute;
+    }
+
+    #banner{
+        padding-right: 50%;
+        padding-bottom: 50px;
+        max-width: 130%;
+        max-height: 130%;
+    }
+
+}
+
+@media only screen and (max-width : 430px) {
+
+    #banner{
+        padding-bottom: 50%;
+        padding-right: 50%;
+        height: 100%;
+        width: 100%;
+        
+        .card{
+            padding-top:-45%;
+            overflow:hidden;
+        }
+
+        .card .card-img-top{
+            width: 150%;
+            height: 100%;
+        }
+    }
+}
